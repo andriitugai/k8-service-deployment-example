@@ -37,4 +37,4 @@ see above..
 
 I'm going to scale up..:
 $ kubect scale deployment voting-app-deploy --replicas=3
-$ kubectl get deployments vo
+$ kubectl get deployments voting-app-deploy
