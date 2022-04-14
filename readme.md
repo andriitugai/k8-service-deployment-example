@@ -26,3 +26,15 @@ $ kubectl create -f result-app-service.yaml
 
 Get result app's URL:
 $ minikube service result-service --url
+
+
+## Deplyments variant
+Check there's no pods or services:
+$ kubectl get pods
+$ kubectl get svc
+
+see above.. 
+
+I'm going to scale up..:
+$ kubect scale deployment voting-app-deploy --replicas=3
+$ kubectl get deployments vo
